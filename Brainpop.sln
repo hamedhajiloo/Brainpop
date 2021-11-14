@@ -3,9 +3,61 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B48DFCB7-DD26-42F9-B9CA-3A6EBFEFA728}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{86E0FA4A-63A9-411C-BCB0-149FF0F2302E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{C900DEAE-207F-42A1-A26D-79AF8423FA2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainpop.Api", "Brainpop.Api\Brainpop.Api.csproj", "{ECA45E7E-EBFA-4A02-9B79-FA83306996D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{9B6BD7CC-E9BE-47E0-BF8C-1BCF3336CD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainpop.Dto", "Brainpop.Dto\Brainpop.Dto.csproj", "{4C387437-C0C5-4618-81EE-66E14D9DAC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainpop.Data", "Brainpop.Data\Brainpop.Data.csproj", "{60117AFA-CDD8-4634-9558-15DDBD1CC559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainpop.Service", "Brainpop.Service\Brainpop.Service.csproj", "{E8E0C16E-D909-49A1-BB59-1908D6119A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainpop.Util", "Brainpop.Util\Brainpop.Util.csproj", "{41393374-D9A5-4991-9F15-EE292F4C69E5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA45E7E-EBFA-4A02-9B79-FA83306996D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA45E7E-EBFA-4A02-9B79-FA83306996D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA45E7E-EBFA-4A02-9B79-FA83306996D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA45E7E-EBFA-4A02-9B79-FA83306996D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C387437-C0C5-4618-81EE-66E14D9DAC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C387437-C0C5-4618-81EE-66E14D9DAC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C387437-C0C5-4618-81EE-66E14D9DAC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C387437-C0C5-4618-81EE-66E14D9DAC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60117AFA-CDD8-4634-9558-15DDBD1CC559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60117AFA-CDD8-4634-9558-15DDBD1CC559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60117AFA-CDD8-4634-9558-15DDBD1CC559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60117AFA-CDD8-4634-9558-15DDBD1CC559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E0C16E-D909-49A1-BB59-1908D6119A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E0C16E-D909-49A1-BB59-1908D6119A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E0C16E-D909-49A1-BB59-1908D6119A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E0C16E-D909-49A1-BB59-1908D6119A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41393374-D9A5-4991-9F15-EE292F4C69E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41393374-D9A5-4991-9F15-EE292F4C69E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41393374-D9A5-4991-9F15-EE292F4C69E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41393374-D9A5-4991-9F15-EE292F4C69E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECA45E7E-EBFA-4A02-9B79-FA83306996D4} = {86E0FA4A-63A9-411C-BCB0-149FF0F2302E}
+		{9B6BD7CC-E9BE-47E0-BF8C-1BCF3336CD4F} = {86E0FA4A-63A9-411C-BCB0-149FF0F2302E}
+		{4C387437-C0C5-4618-81EE-66E14D9DAC50} = {B48DFCB7-DD26-42F9-B9CA-3A6EBFEFA728}
+		{60117AFA-CDD8-4634-9558-15DDBD1CC559} = {B48DFCB7-DD26-42F9-B9CA-3A6EBFEFA728}
+		{E8E0C16E-D909-49A1-BB59-1908D6119A87} = {B48DFCB7-DD26-42F9-B9CA-3A6EBFEFA728}
+		{41393374-D9A5-4991-9F15-EE292F4C69E5} = {B48DFCB7-DD26-42F9-B9CA-3A6EBFEFA728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13009455-18E1-459D-BA4C-C553BCA07106}
